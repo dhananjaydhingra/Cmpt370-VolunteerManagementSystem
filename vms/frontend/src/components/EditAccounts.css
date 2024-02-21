@@ -1,0 +1,83 @@
+.user-list {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .submit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .user-card {
+    position: relative;
+    width: 100%; /* adjust as needed */
+    height: 100%; /* adjust as needed */
+    overflow: auto; /* add scroll if content exceeds box size */
+    flex: 1 0 21%; /* flex-grow, flex-shrink, flex-basis */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .user-fullName {
+    font-size: 24px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+  }
+  .shift-description {
+    font-size: 12px;
+    /* font-weight: light; */
+    margin-bottom: 10px;
+  }
+  .signup-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+
+  .user-details {
+    display: inline;
+    /* font-weight: bold; */
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+
+  .shift-time,
+  .shift-duration {
+    display:flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 2px;
+  }

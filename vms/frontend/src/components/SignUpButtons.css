@@ -1,0 +1,39 @@
+.sign-up-account,
+.sign-up-guest,
+.login {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sign-up-account {
+  background-color: #0E6547;
+  border-color: #0E6547;
+  color: #ffffff;
+}
+
+.sign-up-guest {
+    background-color: #0E6547;
+    border-color: #0E6547;
+    color: #ffffff;
+}
+
+.login {
+    background-color: #0E6547;
+    border-color: #0E6547;
+    color: #ffffff;   
+}
+
+.sign-up-account:hover,
+.sign-up-guest:hover,
+.login:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}

@@ -1,0 +1,107 @@
+/* Apply custom styles to specific class names in your React code */
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #fff;
+  }
+  
+  .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navbar-toggler {
+    background-color: #333;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style the header section */
+  .headcover {
+    background-image: url('../Steep_Hill_Banner.png');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .headcover-title1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .headcover-title2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Style the main content */
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the lead paragraphs */
+  .lead {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Style the testimonials carousel */
+  #testimonials {
+    margin-top: 2rem;
+  }
+  
+  .carousel-item {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .carousel-item p {
+    font-size: 16px;
+  }
+  
+  /* Style the navigation buttons */
+  .nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Style the footer links */
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Style the footer legal section */
+  .ft-legal {
+    padding: 1rem 0;
+  }
+  
+  .ft-legal a {
+    color: #fff;
+  }
+  
+  /* Add more custom styles as needed */
+  

@@ -1,0 +1,83 @@
+.page-description{
+  color: #000000;
+  font-size: 1rem;
+  
+}
+
+.volunteer-sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  border: 1px solid #0E6547;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  background-color: #ffffff;
+}
+
+.volunteer-sign-up-form__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.volunteer-sign-up-form__input {
+  padding: 0.5rem;
+  border: 1px solid #1e7e34;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  width: 100%;
+
+  display: block;
+  margin-bottom: 1rem;
+}
+
+
+.volunteer-sign-up-form__submit {
+  padding: 0.375rem 0.75rem;
+  background-color: #0E6547;
+  color: #ffffff;
+  
+  border-color: #0E6547;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-style: solid;
+
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+  
+.volunteer-sign-up-form__submit:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+
+.account-sign-in-form__input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #1e7e34;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.account-sign-in-form__input:focus{
+  outline: none;
+  border-color: #1e7e34;
+  box-shadow: #218838;
+}
+  
+  
+  

@@ -1,0 +1,51 @@
+.headcover {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .headcover-title1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .headcover-title2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .card {
+    flex: 1 0 21%; /* flex-grow, flex-shrink, flex-basis */
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .card a {
+    color: #007bff;
+    text-decoration: none;
+  }
